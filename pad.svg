@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 240" role="img" aria-label="Sanitary pad">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd6e7"/>
+      <stop offset=".5" stop-color="#fff5f9"/>
+      <stop offset="1" stop-color="#ffd6e7"/>
+    </linearGradient>
+  </defs>
+  <!-- wings -->
+  <path d="M32 82 C14 84 2 92 3 108 C4 128 4 140 3 156 C2 170 16 176 32 170 Z" fill="#ffb3d1" stroke="#e8579a" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M68 82 C86 84 98 92 97 108 C96 128 96 140 97 156 C98 170 84 176 68 170 Z" fill="#ffb3d1" stroke="#e8579a" stroke-width="3" stroke-linejoin="round"/>
+  <!-- body -->
+  <rect x="28" y="8" width="44" height="224" rx="22" fill="url(#body)" stroke="#e8579a" stroke-width="3"/>
+  <!-- absorbent core -->
+  <rect x="38" y="30" width="24" height="180" rx="12" fill="#ffc2dc" opacity=".75"/>
+  <!-- stitching -->
+  <rect x="33" y="14" width="34" height="212" rx="17" fill="none" stroke="#f58ab9" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <!-- heart -->
+  <path d="M50 128 C40 118 42 108 50 112 C58 108 60 118 50 128 Z" fill="#e8579a"/>
+</svg>
